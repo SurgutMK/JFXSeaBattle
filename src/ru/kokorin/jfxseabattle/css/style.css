@@ -1,0 +1,79 @@
+.main{
+    -fx-background-image: url("../images/main.png");
+    -fx-background-color: transparent;
+}
+
+.btnClose{
+    -fx-background-image: url("../images/btnClose.png");
+    -fx-border-radius: 50%;
+    -fx-background-radius: 50%;
+    -fx-background-color: transparent;
+}
+
+.btnClose: hover{
+    -fx-background-image: url("../images/btnCloseHover.png");
+}
+
+#btnStart{
+    -fx-background-image: url("../images/btnStart.png");
+    -fx-background-color: transparent;
+}
+
+#btnStart: hover{
+    -fx-background-image: url("../images/btnStartHover.png");
+}
+
+#editName{
+    -fx-background-image: url("../images/editName.png");
+    -fx-background-color: transparent;
+}
+
+#gamePane{
+    -fx-background-image: url("../images/gameBG.png");
+    -fx-background-color: transparent;
+}
+
+.gameField{
+    -fx-background-image: url("../images/fieldBG.png");
+}
+
+#labelName{
+    -fx-background-image: url("../images/name.png");
+}
+
+#labelNameError{
+    -fx-background-image: url("../images/nameError.png");
+}
+
+Cell{
+    -fx-background-color: transparent;
+}
+
+Cell:hover{
+    -fx-background-color: red;
+}
+
+.cellShipDead{
+    -fx-background-image: url("../images/cellShipDead.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.cellShip{
+    -fx-background-image: url("../images/cellShip.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.cellClear{
+    -fx-background-image: url("../images/cellClear.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
+.cellMiss{
+    -fx-background-image: url("../images/cellMiss.png");
+    -fx-background-position: center;
+    -fx-background-repeat: no-repeat;
+}
+
