@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.shape.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<StackPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="612.0" prefWidth="406.0" styleClass="main" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.kokorin.jfxseabattle.controllers.MainController">
+   <children>
+      <Pane prefHeight="612.0" prefWidth="406.0">
+         <children>
+            <Button layoutX="327.0" layoutY="165.0" mnemonicParsing="false" onAction="#btnExitClick" prefHeight="50.0" prefWidth="54.0" styleClass="btnClose" />
+            <Button id="btnStart" layoutX="112.0" layoutY="518.0" mnemonicParsing="false" onAction="#btnStartClick" prefHeight="46.0" prefWidth="182.0" />
+            <TextField id="editName" fx:id="editName" layoutX="138.0" layoutY="459.0" prefHeight="35.0" prefWidth="135.0">
+               <padding>
+                  <Insets left="9.0" right="9.0" />
+               </padding></TextField>
+            <Label fx:id="labelName" id="labelName" layoutX="72.0" layoutY="420.0" prefHeight="33.0" prefWidth="267.0" />
+         </children></Pane>
+   </children>
+</StackPane>
